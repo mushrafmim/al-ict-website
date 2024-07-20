@@ -26,7 +26,7 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'ta'],
+    locales: ['en'],
   },
 
   presets: [
@@ -74,6 +74,7 @@ const config: Config = {
         {
           type: 'localeDropdown',
           position: 'right',
+          to: '/ta'
         },
         {
           href: 'https://github.com/mushrafmim/al-ict-website',
